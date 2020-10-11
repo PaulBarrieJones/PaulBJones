@@ -21,7 +21,7 @@
 <#
 
 .SYNOPSIS
-  Add specifically formatted DHCP scoped to Microsoft DHCP from CSV file
+  Add specifically formatted DHCP scopes to Microsoft DHCP servers from a CSV file.
 
 .DESCRIPTION
   The network project team have published new network documentation into CSV file. Once imported into this
@@ -32,18 +32,18 @@
   None
 
 .INPUTS
-  Input file stored at "C:\Payload\Network.csv"
+
 
 .OUTPUTS
-  Log file stored in "C:\Logs\MyScript.log"
+
 
 .NOTES
-  Version:        2.0
-  Author:         Paul Jones
-  Creation Date:  14/10/2019
-  Purpose/Change: Project, planned work
-  Change Reference: CAB000000
-  Change Type E/S/N: Normal
+  Version:          2.0
+  Author:           Paul Jones
+  Creation Date:    14/10/2019
+  Purpose/Change:   Project, planned work
+  Change Ref:       CAB000000
+  Change Type:      Normal
   
 .EXAMPLE
   None
