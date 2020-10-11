@@ -28,7 +28,7 @@
   script this data is calculated and formatted into scopes which are then created on the DHCP servers.
   Script to be run by infrastructure engineer, screen output can be observed during process.
 
-.PARAMETER
+.PARAMETERS
   None
 
 .INPUTS
@@ -572,11 +572,9 @@ foreach ($object in $CustomArrayvoice) {
 
 #### VOICE END
 
-######################################################################################################
 
-###
+#-----------------------------------------------------------[Cleanup]------------------------------------------------------------
 
-### Clear all user variables
 $UserVariables = Get-Variable | Select-Object -ExpandProperty Name | Where-Object {$DefaultVariables -notcontains $_ -and $_ -ne "ExistingVariables"}
 Remove-Variable $UserVariables
  
