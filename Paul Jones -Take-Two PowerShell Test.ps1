@@ -1,5 +1,5 @@
 ﻿
-## Take-Two PowerShell Scripting Evaluation 
+## PowerShell Scripting Evaluation 
 ## Completed by Paul Jones
 ## paulbjones@virginmedia.com
 ## Script tested on: PSVersion 5.1.19041.1
