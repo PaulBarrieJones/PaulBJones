@@ -33,7 +33,7 @@
   $ServersWithErrorsLog = "D:\scripts\LOGGING\ServersWithErrorsLog.txt"
 
   # Exceptions - add server name here to remove it from processing
-  $ex1 = "gemini"
+  $ex1 = "SERVER-1"
   $ex2 = $null
   $ex3 = $null
   $ex4 = $null
