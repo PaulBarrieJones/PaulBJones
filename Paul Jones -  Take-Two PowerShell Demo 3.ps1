@@ -123,7 +123,7 @@ Write-Log -Entry "Script Path: $ScriptPath"
 
 # Get payload file, this will run until file is generated
 
-While ((Get-ChildItem $Stage1Path) -eq $null -and $counter -ne 0) {
+While ($null -eq (Get-ChildItem $Stage1Path) -and $counter -ne 0) {
 
 write-host "Waiting for a data file from main script to be uploaded to Stage1 folder..." -ForegroundColor Cyan
 
@@ -283,7 +283,7 @@ Remove-Variable $UserVariables
  
 
 ### Log End
-Write-Log -Entry "Script DHCP ended ($ExitCode)."
+Write-Log -Entry "Script ended ($ExitCode)."
 ### 
 
 ### Script END

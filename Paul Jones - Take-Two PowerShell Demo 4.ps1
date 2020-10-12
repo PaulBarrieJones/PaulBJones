@@ -19,7 +19,7 @@
   Logon script to pop-up branded message box to user upon login.
 
 .DESCRIPTION
-Message box designed in Visual Studio, XML code is then pasted between the @" "@ at line 93. Any active objects from 
+Message box designed in Visual Studio, XML code is then pasted between the @" "@ at line 95. Any active objects from 
 Visual Studio desing will be collected and processed by REGEX.
 
 .INPUTS
